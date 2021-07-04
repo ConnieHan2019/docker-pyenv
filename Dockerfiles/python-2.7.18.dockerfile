@@ -26,4 +26,4 @@ RUN git clone https://github.com/wonjaek36/docker-pyenv.git "$PROJ"
 WORKDIR "$HOME/$PROJ"
 
 # Install pip
-# RUN python -m pip install -r requirements.txt
+RUN python -m pip install -r requirements.txt
